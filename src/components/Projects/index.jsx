@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
     return (
         <section className=" bg-base-200 p-5 min-h-screen flex flex-col justify-center items-center" id="projects">
-            <h2 className="text-center font-electrolize text-4xl p-20 text-primary textshadow">My latest projects</h2>
+            <h2 className="text-center font-electrolize text-4xl pb-20 text-primary textshadow">My latest projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <ProjectCard
                     title="BidBud"
