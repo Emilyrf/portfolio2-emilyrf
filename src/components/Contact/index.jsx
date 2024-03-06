@@ -2,15 +2,16 @@ export default function Contact() {
     return (
         <section className="h-screen flex justify-center items-center" id="contact">
             <div className='card shrink-0 w-full max-w-md shadow-2xl bg-base-200'>
-                <form className='card-body' name="contact" method="POST" data-netlify="true">
+                <form className='card-body' name="contact" method="POST">
+                <input type="hidden" name="form-name" value="contact" />
                     <h2 className="text-center font-electrolize text-4xl  text-primary textshadow">Contact Me </h2>
                     <div className='form-control'>
-                        <label className='label' htmlFor='fullName'>
+                        <label className='label' htmlFor='name'>
                             Name
                         </label>
                         <input
-                            name='fullName'
-                            id='fullName'
+                            name='name'
+                            id='name'
                             type='text'
                             className='input input-bordered'
                         />
@@ -59,26 +60,6 @@ export default function Contact() {
                             Submit
                         </button>
                     </div>
-                </form>
-                <form name="contact" method="POST" data-netlify="true">
-                    <p>
-                        <label>Your Name: <input type="text" name="name" /></label>
-                    </p>
-                    <p>
-                        <label>Your Email: <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                        <label>Your Role: <select name="role[]" multiple>
-                            <option value="leader">Leader</option>
-                            <option value="follower">Follower</option>
-                        </select></label>
-                    </p>
-                    <p>
-                        <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                        <button type="submit">Send</button>
-                    </p>
                 </form>
             </div>
         </section>
