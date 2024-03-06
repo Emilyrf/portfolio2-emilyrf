@@ -6,6 +6,13 @@ export default {
     },
     plugins: [require('daisyui')],
     daisyui: {
-      themes: ['dracula'],
+      themes: [
+        {
+          dracula: {
+            ...require("daisyui/src/theming/themes")["dracula"],
+    
+          },
+        },
+      ],
     },
   };
