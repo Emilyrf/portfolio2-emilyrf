@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <section className="h-screen flex justify-center items-center" id="contact">
+        <section className="h-screen flex justify-center items-center pt-20" id="contact">
             <div className='card shrink-0 w-full max-w-md shadow-2xl bg-base-200'>
                 <form className='card-body' name="contact" method="POST">
                 <input type="hidden" name="form-name" value="contact" />
