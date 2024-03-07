@@ -6,6 +6,9 @@
   @apply textshadow;
 }
 
+a:hover{
+  @apply textshadow;
+}
 
 
 .font-electrolize {
