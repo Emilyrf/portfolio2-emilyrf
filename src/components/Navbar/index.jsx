@@ -24,19 +24,19 @@ export default function Navbar() {
     return (
         <header>
             <div className="navbar bg-base-300 font-electrolize fixed shadow-xl z-10 h-20">
-                <div className="flex-1">
-                    <a href="/" className='btn btn-ghost text-primary text-4xl'> ERF </a>
-                </div>
-                <div className="text-2xl mr-5 space-x-4">
-                    <a href="#about" className={activeLink === '#about' ? 'active text-secondary' : ''}>
-                        About
+                <div className="flex-1 text-3xl ml-5">
+                    <a href="#about" className={` text-primary ${activeLink === '#about' ? 'active' : ''}`}>
+                        &lt;ERF/&gt;
                     </a>
-                    <a href="#projects" className={activeLink === '#projects' ? 'active text-secondary' : ''}>
+                </div>
+
+                <div className="text-2xl mr-5 space-x-4">
+                    <a href="#projects" className={` text-warning ${activeLink === '#projects' ? 'active' : ''}`}>
                         Projects
                     </a>
-                    <a href="#contact" className={activeLink === '#contact' ? 'active text-secondary' : ''}>
+                    <a href="#contact" className={` text-warning ${activeLink === '#contact' ? 'active' : ''}`}>
                         Contact
-                        </a>
+                    </a>
 
                 </div>
             </div>
