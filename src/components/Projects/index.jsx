@@ -11,6 +11,7 @@ export default function Projects() {
                     websiteLink="https://loquacious-yeot-03cf33.netlify.app"
                     githubLink="https://github.com/Emilyrf/semester-project-2-emilyrf"
                     videoSource="/assets/bidbud.mov"
+                    videoThumbnail="/assets/bidbud.png"
                 />
                 <ProjectCard
                     title="Mercado"
@@ -18,6 +19,7 @@ export default function Projects() {
                     websiteLink="https://frameworks2-ca-emilyrf.netlify.app"
                     githubLink="https://github.com/Emilyrf/frameworks2-ca"
                     videoSource="/assets/mercado.mov"
+                    videoThumbnail="/assets/mercado.png"
                 />
                 <ProjectCard
                     title="Holidaze"
@@ -25,6 +27,7 @@ export default function Projects() {
                     websiteLink="https://project-exam2-emilyrf.netlify.app"
                     githubLink="https://github.com/Emilyrf/project-exam-2"
                     videoSource="/assets/holidaze.mov"
+                    videoThumbnail="/assets/holidaze.png"
                 />
             </div>
         </section>
