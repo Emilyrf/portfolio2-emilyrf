@@ -1,9 +1,11 @@
 # Portfolio 2 :hammer:
 
 ## Project Description :star:
+
+![Captura de Tela 2024-03-08 às 13 36 08](https://github.com/Emilyrf/portfolio2-emilyrf/assets/104759694/42559d2f-f1df-4ad3-aa58-cf6ad2683546)
+
 This is a project for the Front-End Development course at Noroff in which I must document three prior submissions from the second year of studies.
 
-(ADD IMAGE)
 
 ## Briefing :memo:
 
